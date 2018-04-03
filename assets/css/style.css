@@ -1,9 +1,19 @@
 h2 {
-    padding: 20px;
-    margin: 0;
+    padding: 20px 40px;
+    margin: 10px 20px;
     color: #4aaaa5;
-    border-bottom:solid grey;
+    font-family: Georgia;
+    border-bottom:solid #cccccc;
 
+
+}
+#port-head {
+    position: relative;
+    bottom: 20px;
+}
+html {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 .name {
     background: #4aaaa5;
@@ -11,15 +21,15 @@ h2 {
     padding: 12px;
     position: fixed;
     float: left;
-    border-top: solid grey;
-    border-left: solid grey;
-    border-right: solid grey;
+    border-top: solid #cccccc;
+    border-left: solid #cccccc;
+    border-right: solid #cccccc;
     left: 250px;
     font-size: 20px;
 }
 #header {
     height: 60px;
-    border-bottom: solid grey;
+    border-bottom: solid #cccccc;
     background:#ffffff   
 }
 #pic {
@@ -35,10 +45,11 @@ h2 {
     height: 400px;
     line-height: 30px;
     background-color:#ffffff;
+    border: solid #dddddd;
 }
 
 .footer {
-    background: grey;
+    background: #666666;
     margin: 0px auto;
     padding: 0px 650px;
     width: 100%;
@@ -46,31 +57,171 @@ h2 {
     bottom: 0;
     position: absolute;
 }
-body {
+
+ body {
+    
+    height: 584px;
+    border-bottom: solid #4aaaa5;
     margin: 0 auto;
-       
+    background-image: url("background.png.png")   
+ 
 }
 .form {
-    margin: 20px 120px;
+    margin: 30px 10px;
+    padding: 15px 1px;
     height: 252px;
-    width: 960px;
+    width: 600px;
+    background-color: white;
+    position: relative;
+    bottom: 19px;
 
 }
 .contact {
-    margin: 20px 120px;
-    padding: 20px 12px;
-    width: 960px;
+    margin: 20px 300px;
+    padding: 20px 20px;
+    width: 600px;
+    background: white;
+    border: solid #dddddd;
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+
 }  
 .copyright {
     float:middle;
 }
-   
+a {
+    text-decoration: none;
+}
+.portfolio {
+    background-color:white;
+    padding: 20px 40px;
+    margin: 20px 310px;
+    height: 420px;
+    width: 600px;
+    border: solid #dddddd;
+    position: relative;
+    bottom: 10px;
+    
+}  
     
 
 #link{
     float: right;
     position: absolute;
     right: 200px;
-    top: 40px;
-    
+    top: 37px;
+    text-decoration: none;  
+}
+.input {
+    width: 80%; 
+}
+.message {
+    width: 80%;
+    height: 50%;
+}
+.button { 
+    background-color: #4aaaa5;
+    padding: 10px;
+    border: solid #cccccc;
+    position: relative;
+    bottom: 12px;
+    width: 120px;
+    left: 80px;
+   
+}
+.img1 {
+    height: 180px;
+    width: 180px;
+    position: relative;
+    bottom: 18px;
+    left: 8px;
+}
+.img2 {
+    height: 180px;
+    width: 180px;
+    position: relative;
+    bottom: 18px;
+    left: 22px;
+}
+.img3 {
+    height: 180px;
+    width: 180px;
+    position: relative;
+    bottom: 18px;
+    left: 35px;
+}
+.img4 {
+    height: 180px;
+    width: 180px;
+    position: relative;
+    bottom: 18px;
+    left: 8px;
+}.img5 {
+    height: 180px;
+    width: 180px;
+    position: relative;
+    left: 22px;
+    bottom: 18px;
+}
+.overflow {
+    overflow-y: scroll;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    bottom: 19px;
+    height: 360px;
+}
+.pic-name1 {
+    clear: both;
+    padding: 20px;
+    width: 140px;
+    height: 0px;
+    z-index: 1;
+    background: #4aaaa5;
+    position: relative;
+    bottom: 260px;
+    left: 8px;
+    line-height: 50%;
+    text-align: center;
+}
+.pic-name2 {
+    clear: both;
+    padding: 20px;
+    width: 140px;
+    height: 0px;
+    position: relative; 
+    line-height: 50%;
+    text-align: center;
+    bottom: 300px;
+    left: 206px;
+    background: #4aaaa5;
+      
+}
+.pic-name3 {
+    clear: both;
+    padding: 20px;
+    width: 140px;
+    height: 0px;
+    position: relative;
+    line-height: 50%;
+    text-align: center;
+}
+.pic-name4 {
+    clear: both;
+    padding: 20px;
+    width: 140px;
+    height: 0px;
+    position: relative;
+    line-height: 50%;
+    text-align: center;
+}
+.pic-name5 {
+    clear: both;
+    padding: 20px;
+    width: 140px;
+    height: 0px;
+    position: relative;
+    line-height: 50%;
+    text-align: center;
 }
