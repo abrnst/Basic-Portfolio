@@ -184,6 +184,8 @@ a {
     left: 8px;
     line-height: 50%;
     text-align: center;
+    font-weight: bold;
+
 }
 .pic-name2 {
     clear: both;
@@ -196,7 +198,8 @@ a {
     bottom: 300px;
     left: 206px;
     background: #4aaaa5;
-      
+    font-weight: bold;
+  
 }
 .pic-name3 {
     clear: both;
@@ -206,6 +209,12 @@ a {
     position: relative;
     line-height: 50%;
     text-align: center;
+    background: #4aaaa5;
+    bottom: 340px;
+    left: 403px;
+    font-weight: bold;
+
+    
 }
 .pic-name4 {
     clear: both;
@@ -215,6 +224,11 @@ a {
     position: relative;
     line-height: 50%;
     text-align: center;
+    background: #4aaaa5;
+    bottom: 199px;
+    left: 8px;
+    font-weight: bold;
+
 }
 .pic-name5 {
     clear: both;
@@ -224,4 +238,9 @@ a {
     position: relative;
     line-height: 50%;
     text-align: center;
+    background: #4aaaa5;
+    bottom: 239px;
+    left: 206px;
+    font-weight: bold;
+
 }
