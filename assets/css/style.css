@@ -27,7 +27,7 @@ html {
     left: 250px;
     font-size: 20px;
 }
-#header {
+.header {
     height: 60px;
     border-bottom: solid #cccccc;
     background:#ffffff   
@@ -106,7 +106,7 @@ a {
 }  
     
 
-#link{
+.link{
     float: right;
     position: absolute;
     right: 200px;
@@ -130,34 +130,34 @@ a {
     left: 80px;
    
 }
-.img1 {
+#img1 {
     height: 180px;
     width: 180px;
     position: relative;
     bottom: 18px;
     left: 8px;
 }
-.img2 {
+#img2 {
     height: 180px;
     width: 180px;
     position: relative;
     bottom: 18px;
     left: 22px;
 }
-.img3 {
+#img3 {
     height: 180px;
     width: 180px;
     position: relative;
     bottom: 18px;
     left: 35px;
 }
-.img4 {
+#img4 {
     height: 180px;
     width: 180px;
     position: relative;
     bottom: 18px;
     left: 8px;
-}.img5 {
+}#img5 {
     height: 180px;
     width: 180px;
     position: relative;
@@ -172,7 +172,7 @@ a {
     bottom: 19px;
     height: 360px;
 }
-.pic-name1 {
+#pic-name1 {
     clear: both;
     padding: 20px;
     width: 140px;
@@ -187,7 +187,7 @@ a {
     font-weight: bold;
 
 }
-.pic-name2 {
+#pic-name2 {
     clear: both;
     padding: 20px;
     width: 140px;
@@ -201,7 +201,7 @@ a {
     font-weight: bold;
   
 }
-.pic-name3 {
+#pic-name3 {
     clear: both;
     padding: 20px;
     width: 140px;
@@ -216,7 +216,7 @@ a {
 
     
 }
-.pic-name4 {
+#pic-name4 {
     clear: both;
     padding: 20px;
     width: 140px;
@@ -230,7 +230,7 @@ a {
     font-weight: bold;
 
 }
-.pic-name5 {
+#pic-name5 {
     clear: both;
     padding: 20px;
     width: 140px;
